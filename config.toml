@@ -1,0 +1,6 @@
+baseURL = "http://quersto.ru/"
+languageCode = "ru"
+title = "Кваст для всей семьи"
+theme = "istudio"
+[params]
+  name = "Questo"
