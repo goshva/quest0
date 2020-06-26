@@ -1,6 +1,6 @@
-baseURL = "http://quersto.ru/"
+baseURL = "https://quersto.ru/"
 languageCode = "ru"
-title = "Кваст для всей семьи"
+title = "Квест для всей семьи"
 theme = "istudio"
 [params]
   name = "Questo"
