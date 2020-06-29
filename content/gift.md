@@ -1,7 +1,8 @@
 ---
 title: "Gift"
-page: "gift.html"
-date: 2020-06-25T14:15:31-04:00
-layout: “gift”
+description: "Подари подарок школьнику"
+layout: "gift"
+categories: "pricelist"
+date: 2020-04-09T23:36:31+03:00
+aliases: ["/gift/","/gift.html"]
 ---
-
