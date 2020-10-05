@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://quersto.ru/categories/</loc>
+    <lastmod>2020-04-09T23:36:31+03:00</lastmod>
+  </url>
   
   <url>
     <loc>https://quersto.ru/gift/</loc>
@@ -8,25 +13,17 @@
   </url>
   
   <url>
-    <loc>https://quersto.ru/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://quersto.ru/categories/pricelist/</loc>
     <lastmod>2020-04-09T23:36:31+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://quersto.ru/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://quersto.ru/</loc>
     <lastmod>2020-04-09T23:36:31+03:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://quersto.ru/tags/</loc>
   </url>
   
 </urlset>
