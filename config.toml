@@ -1,7 +1,8 @@
-baseURL = "https://quersto.ru/"
+baseURL = "https://questkislovodsk.ru/"
 languageCode = "ru"
 title = "Квест для всей семьи"
 theme = "istudio"
 [params]
   name = "Questo"
-  address = "Кисловодск, Чайковского 26 а"
+  address = "проспект Победы, 6"
+  timeWork = "10:00 - 22:00"
