@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    {{- partial "header.html" . -}}
+    <div id="content">
+      {{- partial "jumbotron.html" . -}}
+      test
+      {{- block "main" . }}{{- end }}
+      test2
+    </div>
+    {{- partial "footer.html" . -}}
+    {{- partial "scripts.html" . -}}
+  </body>
+</html>

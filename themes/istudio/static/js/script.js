@@ -1311,7 +1311,7 @@
 			let user_phone = prompt("Введите телефон чтоб уточнить удобное время,🙏 ");
 			var msg = `${action} от ${user_phone}`; // from ${getCookie("@")}`;
 			var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}&parse_mode=html`;
-		  
+		  console.log(url)
 			if (user_phone !== "" && user_phone !== null) {
 			  fetch(url)
 				.then((response) => {

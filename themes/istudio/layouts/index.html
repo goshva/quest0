@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<body>
+
   <div class="ie-panel">
     <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg"
         height="42" width="820"
@@ -17,35 +17,7 @@
   <div class="page">
     <!-- Page Header-->
     <!-- Preview section-->
-    <section class="section context-dark bg-image bg-mask bg-mask-2 section-fullheight section-90vh"
-      style="background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.9)), url(images/jumbotron-1-1919x953.jpg);">
-      <div class="section-fullheight-inner section-md">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-xl-6 text-center text-md-left">
-              <div class="jumbotron-custom wow fadeInRight">
-                <div class="text-2">📍Кисловодск</div>
-                <div class="text-1">Игра комната</div>
-                <div class="title">Квест0</div>
-                <p class="big">
-                  Мы рады пригласить вас в увлекательное интерактивное приключение c погружением в мир задач,
-                  головоломок и логики. Разомни мозги интеллектуальной игрой.
-                  Квесты подходят для всей семьи. Сценарии и интерьер комнаты подходит для любого возраста участников.
-                  Отправляйтесь на семейные приключения со всеми членами своей семьи и становитесь единой командой.
-                  Посетить наш квест — это оригинальный способ провести день рождения или просто веселую встречу для <b>
-                    вашего ребенка и его друзей.</b>
-                </p>
-                <p>
-                  *В день рождение ребенок играет <b>бесплатно.</b>
-                  Уровни квеста будут интересны как взрослым так детям.
-                  Игра приключение подарит много положительных эмоций и радости большого праздника.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <!-- Our awards-->
     <section class="section section-lg bg-default section-lined">
       <div class="container container-lined">
@@ -58,7 +30,7 @@
       <div class="container">
         <div class="row row-30 align-items-center">
           <div class="col-sm-12 col-lg-4">
-            <h3>1000₽ с человека</h3>
+            <h3 style="margin: auto; width: 70%;"><b>1000</b>₽ с человека</h3>
           </div>
           <div class="col-sm-6 col-lg-4">
             <div class="big block-1-custom">
@@ -260,36 +232,7 @@
     </section>
   </div>
   <div class="snackbars" id="form-output-global"></div>
-  <script src="js/core.min.js"></script>
-  <script src="js/script.js"></script>
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (m, e, t, r, i, k, a) {
-      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-      m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-    })
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-    ym(64968826, "init", {
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true
-    });
-  </script>
-  <noscript>
-    <div><img src="https://mc.yandex.ru/watch/64968826" style="position:absolute; left:-9999px;" alt="" /></div>
-  </noscript>
-  <!-- /Yandex.Metrika counter -->
-
-  <script>
-    function getCookie(name) {
-      const value = `; ${document.cookie}`;
-      const parts = value.split(`; ${name}=`);
-      if (parts.length === 2) return parts.pop().split(';').shift();
-    }
-    let qr = getCookie('qr');
-
-  </script>
+ 
 
   </div>
   {{ end }}
