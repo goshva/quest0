@@ -1,4 +1,5 @@
 baseURL = "https://questkislovodsk.ru/"
+ publishDir ="docs"
 languageCode = "ru"
 title = "Квест для всей семьи"
 theme = "istudio"
