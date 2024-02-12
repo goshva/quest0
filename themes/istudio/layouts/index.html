@@ -2,7 +2,11 @@
 
 
   <div class="ie-panel">
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img loading="lazy" src="images/ie8-panel/warning_bar_0000_us.jpg"
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/">
+      
+      {{ $image := resources.Get "/images/ie8-panel/warning_bar_0000_us.jpg" }}
+      {{ $image := $image.Resize "x900" }}
+      <img loading="lazy" src="{{ $image.RelPermalink }}"
         height="42" width="820"
         alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
   </div>
@@ -57,19 +61,31 @@
           <div class="row">
             <a class="col-6 col-md-4 box-border" href="#">
               <div class="title">Пытливый ум</div>
-              <img loading="lazy" src="images/brand-12-121x99.jpg" alt="" width="358" height="269" />
+              {{ $image := resources.Get "/images/brand-12-121x99.jpg" }}
+              {{ $image := $image.Resize "x269" }}
+              <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="358" height="269" />
             </a><a class="col-6 col-md-4 box-border" href="#">
               <div class="title">Свежый взгляд</div>
-              <img loading="lazy" src="images/brand-13-124x98.jpg" alt="" width="358" height="269" />
+              {{ $image := resources.Get "/images/brand-13-124x98.jpg" }}
+              {{ $image := $image.Resize "x269" }}
+              <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="358" height="269" />
             </a><a class="col-6 col-md-4 box-border" href="#">
               <div class="title">Смекалка</div>
-              <img loading="lazy" src="images/brand-14-131x112.jpg" alt="" width="358" height="269" />
+              {{ $image := resources.Get "/images/brand-14-131x112.jpg" }}
+              {{ $image := $image.Resize "x269" }}
+              <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="358" height="269" />
+
             </a><a class="col-6 col-md-4 box-border" href="#">
               <div class="title">IQ +30</div>
-              <img loading="lazy" src="images/brand-15-146x68.jpg" alt="" width="358" height="269" />
+              {{ $image := resources.Get "/images/brand-15-146x68.jpg" }}
+              {{ $image := $image.Resize "x780" }}
+              <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="358" height="269" />
+
             </a><a class="col-6 col-md-4 box-border" href="#">
               <div class="title">Тандем и трио</div>
-              <img loading="lazy" src="images/brand-16-111x99.jpg" alt="" width="358" height="269" />
+              {{ $image := resources.Get "/images/brand-16-111x99.jpg" }}
+              {{ $image := $image.Resize "x269" }}
+              <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="358" height="269" />
             </a><a class="col-6 col-md-4 box-border" href="#">
               <div class="icon icon-sm mdi mdi-arrow-right"></div>
             </a>
@@ -137,8 +153,13 @@
         <div class="swiper-container swiper-slider swiper-slider-1" data-next=".custom-swiper-button-next"
           data-prev=".custom-swiper-button-prev" data-loop="true">
           <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/home-1-585x541.jpg"></div>
-            <div class="swiper-slide" data-slide-bg="images/home-2-585x541.jpg"></div>
+
+            {{ $image := resources.Get "/images/home-1-585x541.jpg" }}
+            {{ $image := $image.Resize "x600" }}
+            <div class="swiper-slide" data-slide-bg="{{ $image.RelPermalink }}"></div>
+            {{ $image := resources.Get "/images/home-2-585x541.jpg" }}
+            {{ $image := $image.Resize "x800" }}
+            <div class="swiper-slide" data-slide-bg="{{ $image.RelPermalink }}"></div>
           </div>
           <div class="swiper-pagination"></div>
           <!-- Swiper Navigation-->
@@ -164,7 +185,9 @@
             <div class="row no-gutters">
               <div class="col-sm-6 wow fadeInLeft">
                 <div class="box-team box-team-right">
-                  <img loading="lazy" src="images/index-3-1-390x332.jpg" alt="" width="390" height="332" />
+                  {{ $image := resources.Get "/images/index-3-1-390x332.jpg" }}
+                  {{ $image := $image.Resize "x332" }}
+                  <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="390" height="332" />
                   <div class="meta">
                     <div class="heading-6 title">Акопов Акоп</div>
                     <p class="position">Создатель и Конструктор</p>
@@ -173,7 +196,9 @@
               </div>
               <div class="col-sm-6 wow fadeInRight">
                 <div class="box-team box-team-right">
-                  <img loading="lazy" src="images/index-3-2-390x332.jpg" alt="" width="390" height="332" />
+                  {{ $image := resources.Get "/images/index-3-2-390x332.jpg" }}
+                  {{ $image := $image.Resize "x332" }}
+                  <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="390" height="332" />
                   <div class="meta">
                     <div class="heading-6 title">Инкогнито</div>
                     <p class="position">Сценарист</p>
@@ -182,7 +207,9 @@
               </div>
               <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="box-team box-team-right">
-                  <img loading="lazy" src="images/index-3-3-390x332.jpg" alt="" width="390" height="332" />
+                  {{ $image := resources.Get "/images/index-3-3-390x332.jpg" }}
+                  {{ $image := $image.Resize "x332" }}
+                  <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="390" height="332" />
                   <div class="meta">
                     <div class="heading-6 title">Шарыпин Егор</div>
                     <p class="position">Техническое обеспечение</p>
@@ -191,7 +218,9 @@
               </div>
               <div class="col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="box-team box-team-right">
-                  <img loading="lazy" src="images/index-3-4-390x332.jpg" alt="" width="390" height="332" />
+                  {{ $image := resources.Get "/images/index-3-4-390x332.jpg" }}
+                  {{ $image := $image.Resize "x332" }}
+                  <img loading="lazy" src="{{ $image.RelPermalink }}" alt="" width="390" height="332" />
                   <div class="meta">
                     <div class="heading-6 title">Маденко Никита</div>
                     <p class="position">Куратор проекта</p>

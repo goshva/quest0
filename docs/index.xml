@@ -6,24 +6,21 @@
     <description>Recent content in Семейный квест в Кисловодске on Квест для всей семьи</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 25 Jun 2020 14:12:13 -0400</lastBuildDate><atom:link href="https://questkislovodsk.ru/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2020 14:12:13 -0400</lastBuildDate>
+    <atom:link href="https://questkislovodsk.ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About 11</title>
       <link>https://questkislovodsk.ru/about/</link>
       <pubDate>Thu, 25 Jun 2020 14:12:13 -0400</pubDate>
-      
       <guid>https://questkislovodsk.ru/about/</guid>
       <description>about222</description>
     </item>
-    
     <item>
       <title>Gift</title>
       <link>https://questkislovodsk.ru/gift/</link>
       <pubDate>Thu, 09 Apr 2020 23:36:31 +0300</pubDate>
-      
       <guid>https://questkislovodsk.ru/gift/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

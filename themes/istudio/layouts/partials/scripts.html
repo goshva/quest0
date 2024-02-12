@@ -1,5 +1,8 @@
-<script src="/js/core.min.js"></script>
-<script src="/js/script.js"></script>
+{{ $js := resources.Get "/js/core.min.js" }}
+<script defer src="{{ $js.RelPermalink }}"></script>
+{{ $js := resources.Get "/js/script.js" |  minify}}
+<script defer src="{{ $js.RelPermalink }}"></script>
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
   (function (m, e, t, r, i, k, a) {

@@ -4,6 +4,6 @@ languageCode = "ru"
 title = "Квест для всей семьи"
 theme = "istudio"
 [params]
-  name = "Questo"
+  name = "Quest0"
   address = "проспект Победы, 6"
   timeWork = "10:00 - 22:00"
